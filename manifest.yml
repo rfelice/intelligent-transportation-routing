@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: intelligent-transportation-routing
+  host: intelligent-transportation-routing
+  disk_quota: 1024M
+  services:
+  - intelligent-transportation-routing-cloudantNoSQLDB
+  - intelligent-transportation-routing-iotf-service
+  - Visual Recognition-sa
